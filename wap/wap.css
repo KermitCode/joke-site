@@ -1,0 +1,49 @@
+/*公用及列表*/
+html,body,p,form,table,input,span,div{padding:0;margin:0;}
+body{min-width:200px;max-width:380px;color:#333;font-size:0.9em;line-height:1.5em;word-wrap:break-word;margin-left:2px;margin-right:2px;text-align:left;}
+a{text-decoration:underline;}
+/*alluse*/
+.clear{clear:both;}
+.clr{height:0px;clear:both;}
+.padr10{padding-right:10px;}
+.padl10{padding-left:10px;}
+.padl5{padding-left:5px;}
+.padb5{padding-bottom:5px;}
+a.marlb{display:inline-block;margin-left:100px;}
+img{border:none;vertical-align:middle;margin:3px 0;}
+em{font-size:0.8em;font-style: normal;color:#666;}
+
+/*top_bottom*/
+td.zhici{font-size:0.7em;}
+.dhtop{line-height:1.5em;text-align:center;}
+.dht{background-color:#093;color:#FFF;}
+.dht a{color:#fff;}
+.dh{background-color:#eee;border:1px solid #093;padding:5px;margin-bottom:5px;}
+.dh a{line-height:1.7em;}
+.top{text-align:center;background-color:#093;color:#fff;}
+.top a{color:#FFF;}
+.bt{font-size:0.8em;text-align:center;}
+img.logo{width:180px;height:60px;}
+
+/*img*/
+.imgs{text-align:center;}
+.imgs img{border:2px solid #ddd;}
+
+.ls{margin-top:2px;line-height:1.5em;}
+.ls p{padding-top:2px;}
+p.lm{font-size:1em;font-weight:bolder;color:#fff;line-height:1.4em;background-color:#093;padding-left:10px;margin-bottom:5px;}
+p.mo{text-align:right;padding-right:15px;font-size:0.6em;}
+
+.page{font-size:0.8em;line-height:1.5em;margin:5px 0;}
+a{color:#333;}
+a:hover{text-decoration:underline;}
+table{width:100%;border-collapse:collapse;border-spacing:0;}
+table,tbody,tr,td,th{border-width:0;}
+input,button,textarea{-webkit-appearance:none;border-radius:0;}
+.cl{clear:left;}
+/*内页*/
+.title{font-size:1.2em;font-weight:bolder;padding:0.1em 0 0.1em 0;background-color:#093;line-height:1.5em;text-align:center;border:1px solid #ccc;color:#fff;}
+.day{font-size:0.8em;color:#999;text-align:right;padding-right:15px;border-left:1px solid #ccc;border-right:1px solid #ccc;}
+.cont{line-height:1.5em;border:1px solid #ccc;border-top:0;margin-bottom:5px;padding:10px;}
+.cen{text-align:center;}
+.near{padding:2px 0 5px 5px;font-size:0.8em;}

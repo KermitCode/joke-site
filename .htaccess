@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+    IndexIgnore */*
+    RewriteEngine on
+
+    # if a directory or a file exists, use it directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # otherwise forward it to index.php
+    RewriteRule . index.php
+
+RewriteCond %{HTTP_HOST} ^wap.33xiao.com$
+RewriteCond %{REQUEST_URI} !^/wap/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /wap/$1
+RewriteCond %{HTTP_HOST} ^wap.33xiao.com$
+RewriteRule ^(/)?$ wap/index.php [L]

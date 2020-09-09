@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /wap/ 
+
+RewriteRule ^index.html$ 		index.php 
+RewriteRule ^xhclass.html$ 		xhclass.php 
+RewriteRule ^newt.html$  		newt.php
+RewriteRule ^newt-(\d*)-(\d*).html$     newt.php?pgcl=$1&page=$2
+RewriteRule ^newi.html$  		newi.php
+RewriteRule ^newi-(\d*)-(\d*).html$     newi.php?pgcl=$1&page=$2
+
+RewriteRule ^bestt.html$  		bestt.php
+RewriteRule ^bestt-(\d*)-(\d*).html$    bestt.php?pgcl=$1&page=$2
+RewriteRule ^besti.html$  		besti.php
+RewriteRule ^besti-(\d*)-(\d*).html$    besti.php?pgcl=$1&page=$2
+
+RewriteRule ^showt-(\d*).html$  	showt.php?pgid=$1
+RewriteRule ^showi-(\d*).html$  	showi.php?pgid=$1

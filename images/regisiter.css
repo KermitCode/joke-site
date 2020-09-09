@@ -1,0 +1,28 @@
+.loginBox{FONT-FAMILY: Tahoma, Geneva, sans-serif; BACKGROUND:#FF6699; FONT-SIZE: 16px}
+.headerBox {TEXT-ALIGN: center; COLOR: #f9fafa; text-shadow: 1px 1px 1px #3A4868}
+.loginBox{BORDER-BOTTOM: #83eeb3 2px solid; BORDER-LEFT: #83eeb3 2px solid; PADDING-BOTTOM: 20px; MARGIN: auto auto 8px; PADDING-LEFT: 20px; WIDTH: 340px; PADDING-RIGHT: 20px; BACKGROUND: #befad9; BORDER-TOP: #83eeb3 2px solid; BORDER-RIGHT: #83eeb3 2px solid; PADDING-TOP: 20px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), inset 0px 4px 10px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), inset 0px 4px 10px rgba(0, 0, 0, 0.2); box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), inset 0px 4px 10px rgba(0, 0, 0, 0.2);}
+.loginBox H1 {PADDING-BOTTOM: 8px; MARGIN: 0px 0px 12px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; COLOR: #f9fafa; FONT-SIZE: 20px; FONT-WEIGHT: bold; PADDING-TOP: 0px; text-shadow: 1px 1px 1px #3A4868}
+.inputBox {BORDER-BOTTOM: #fff 2px solid; BORDER-LEFT: #fff 2px solid; PADDING-BOTTOM: 8px; MARGIN: 5px auto;margin-bottom:15px; PADDING-LEFT: 8px; WIDTH: 300px; PADDING-RIGHT: 8px; BACKGROUND: #fff; BORDER-TOP: #fff 2px solid; BORDER-RIGHT: #fff 2px solid; PADDING-TOP: 8px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), inset 0px 2px 4px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), inset 0px 2px 4px rgba(0, 0, 0, 0.15); box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), inset 0px 2px 4px rgba(0, 0, 0, 0.15)}
+.inputBox LABEL {DISPLAY: inline-block; FONT-WEIGHT: bold; text-shadow: 1px 1px 1px #F3F4F6}
+.inputBox INPUT {BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 5px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 5px; OUTLINE-WIDTH: medium; WIDTH: 200px; PADDING-RIGHT: 5px; FONT-FAMILY: Tahoma, Geneva, sans-serif; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #35455f; FONT-SIZE: 16px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2px;}
+BUTTON {BORDER-BOTTOM: #777 2px solid; POSITION: relative; BORDER-LEFT: #777 2px solid; PADDING-BOTTOM: 8px; MARGIN: 0px auto;margin-top:15px;PADDING-LEFT: 8px; WIDTH: 150px; PADDING-RIGHT: 8px; DISPLAY: block; FONT-FAMILY: Tahoma, Geneva, sans-serif; BACKGROUND: #999; COLOR: #fff; FONT-SIZE: 16px; BORDER-TOP: #777 2px solid; CURSOR: pointer; FONT-WEIGHT: bold; BORDER-RIGHT: #777 2px solid; PADDING-TOP: 8px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), inset 0px -2px 6px rgba(255, 255, 255, 0.15); -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), inset 0px -2px 6px rgba(255, 255, 255, 0.15); box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), inset 0px -2px 6px rgba(255, 255, 255, 0.15)}
+BUTTON:hover {BORDER-BOTTOM: #101010 2px solid; BORDER-LEFT: #101010 2px solid; BACKGROUND: #101010; BORDER-TOP: #101010 2px solid; BORDER-RIGHT: #101010 2px solid; -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), inset 0px -2px 6px rgba(255, 255, 255, 0.15); -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), inset 0px -2px 6px rgba(255, 255, 255, 0.15); box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), inset 0px -2px 6px rgba(255, 255, 255, 0.15)}
+BUTTON:active {BORDER-BOTTOM: #101010 2px solid; BORDER-LEFT: #101010 2px solid; BACKGROUND: #101010; BORDER-TOP: #101010 2px solid; BORDER-RIGHT: #101010 2px solid; -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), inset 0px -2px 6px rgba(255, 255, 255, 0.15); -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), inset 0px -2px 6px rgba(255, 255, 255, 0.15); box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), inset 0px -2px 6px rgba(255, 255, 255, 0.15)}
+BUTTON:active {TOP: 1px}
+
+.reg{line-height:28px;color:#333;width:350px;height:385px;border-left:1px dotted #F69;}
+.regtit{font-weight:bolder;font-size:14px;margin-top:5px;margin-bottom:10px;margin-left:15px;}
+.regcont{text-indent:30px;margin-left:15px;}
+.severinput{color:#F69;height:22px;line-height:22px;text-align:left;font-size:14px;font-weight:bolder;margin-top:0px;}
+.severinput .right{margin-right:110px;}
+.say{font-size:12px;margin-left:180px;font-weight:normal;line-height:22px;}
+.login{margin-top:45px;text-align:center;}
+.message{margin-top:15px;margin-left:10px;color:#039;}
+
+
+.user{line-height:30px;color:#333;width:180px;height:320px;border:1px dotted #F69;}
+.users{width:760px;text-align:left;}
+.menu{text-indent:35px;margin-left:15px;background:url(lanmu.gif) no-repeat 15px;}
+#usertab{width:760px;text-align:left;border-top:1px dotted #F69;border-right:1px dotted #F69;}
+#usertab td{border-left:1px dotted #F69;border-bottom:1px dotted #F69;height:32px;line-height:30px;text-indent:10px;}
+input.pass{height:15px;}

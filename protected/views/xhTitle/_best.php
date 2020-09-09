@@ -1,0 +1,3 @@
+<div class='ma_tit left'><span class='index_t'><a href='<?php echo $this->createUrl('XhTitle/best',array('id'=>$data->cl_id));?>'>[<?php echo $this->xh_class[$data->cl_id]['name']; ?>]</a> <a href='<?php echo $this->createUrl('XhTitle/view',array('id'=>$data->tt_id));?>'><?php echo $data->tt_title; ?></a></span><span class='index_c'><a href='<?php echo $this->createUrl('XhTitle/view',array('id'=>$data->tt_id)); ?>' class='indc'>
+		<?php  echo $this->kermitBase->str_cut($this->kermitBase->filter_normal(strip_tags($this->data_text[$data->tt_id])),130-strlen($data->tt_title),'......');?></a></span>
+			  <span class='tim'><em><?php echo $this->kermitBase->getTime("ymdhis",$data->tt_time); ?></em></span></div>

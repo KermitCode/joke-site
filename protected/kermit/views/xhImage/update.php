@@ -1,0 +1,1 @@
+<?php echo $this->renderPartial('_form', array('model'=>$model,'class_arr'=>$class_arr,'xhImage_up'=>$xhImage_up)); ?>
